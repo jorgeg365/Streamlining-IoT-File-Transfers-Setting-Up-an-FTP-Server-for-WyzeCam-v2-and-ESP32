@@ -97,7 +97,7 @@ const char* password = "B4r3f2c1!+";
 // Replace with your FTP server credentials
 char ftp_server[] = "192.168.88.250";
 char ftp_user[] = "amb82";
-char ftp_pass[] = "";
+char ftp_pass[] = "";  
 // uint16_t ftp_port = 21; // Default FTP port, change if necessary
 
 // Camera module pin definitions for AI-Thinker
@@ -234,6 +234,7 @@ void startCameraServer() {
 void loop() {
   // Empty loop since the main code is in setup
 }
+
      ```
 
 ---
